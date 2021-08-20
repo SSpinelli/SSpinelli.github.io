@@ -2,8 +2,9 @@
 
 body {
     background-color: #383E56;
-    color: cornsilk;
+    color: #C5D7BD;
     font-size: 20px;
+    font-family:'Poppins';
 }
 
 img {
@@ -37,6 +38,7 @@ ul {
 
 .nome-menu {
     text-align: left;
+    font-family: 'Poppins';
 }
   
 /* COVER */
@@ -45,13 +47,16 @@ ul {
     margin-top: 6em;
     margin-bottom: 6em;
     text-align: center;
-    font-family: monospace;
     font-size: 2.3em;
     color: #C5D7BD;
 }
 
 .meu-nome {
     color: #FB743E;
+}
+
+.logo {
+    width: 100px;
 }
 
 /* ABOUT */
@@ -156,4 +161,13 @@ ul {
 
 .indication-sites {
     flex: 1;
+}
+
+.buton {
+    padding: 0 100px 0 100px;
+    background-color: #C5D7BD;
+    color: #383E56;
+    border-radius: 10px;
+    text-align: center;
+    margin: 50px 800px 0 800px;
 }

@@ -25,18 +25,18 @@ ul {
 
 .menu {
     display: flex;
-    background-color: #C5D7BD;
     margin: 0 auto;
-    max-width: 50%;
-    text-align: center;
+    max-width: 20%;
 }
 
 .lista-menu {
-    flex: 1;
-    margin: 10px;
+    margin: 20px;
     font-size: 1.5em;
     color: #FB743E;
-    flex-grow: 1;
+}
+
+.nome-menu {
+    text-align: left;
 }
   
 /* COVER */

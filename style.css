@@ -1,0 +1,159 @@
+/* general */
+
+body {
+    background-color: #383E56;
+    color: cornsilk;
+    font-size: 20px;
+}
+
+img {
+    width: 300px;
+    border-radius: 50%;
+    padding: 100px 0 100px 0;
+}
+
+a {
+    color: #FB743E;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+  }
+
+/* MENU */
+
+.menu {
+    display: flex;
+    background-color: #C5D7BD;
+    margin: 0 auto;
+    max-width: 50%;
+    text-align: center;
+}
+
+.lista-menu {
+    flex: 1;
+    margin: 10px;
+    font-size: 1.5em;
+    color: #FB743E;
+    flex-grow: 1;
+}
+  
+/* COVER */
+
+#capa {
+    margin-top: 6em;
+    margin-bottom: 6em;
+    text-align: center;
+    font-family: monospace;
+    font-size: 2.3em;
+    color: #C5D7BD;
+}
+
+.meu-nome {
+    color: #FB743E;
+}
+
+/* ABOUT */
+
+#sobre {
+    background-color: #334756;
+    margin-top: 6em;
+    margin-bottom: 6em;
+    display: flex;
+}
+
+.about-text {
+    text-align: center;
+    padding: 100px 200px 100px 200px;
+    max-width: 50%;
+}
+
+.title-about {
+    font-size: 2em;
+}
+
+/* SKILLS */
+
+#skills {
+    display: flex;
+    margin-top: 6em;
+    margin-bottom: 6em;
+}
+
+.soft {
+    max-width: 50%;
+    flex: 1;
+    margin-right: 245px;
+}
+
+.hard {
+    max-width: 50%;
+    flex: 1;
+    margin-left: 245px;
+}
+
+.giphy-embed {
+    margin-left: 200px;
+    border-radius: 45%;
+}
+
+#title-hard {
+    text-align: center;
+    font-size: 2em;
+    color: #FB743E;
+}
+
+#soft2 {
+    text-align: center;
+    font-size: 2em;
+    color: #9FB8AD;
+}
+
+.lista-hard ::before {
+      content: "\2022";
+      color: #FB743E;
+      font-weight: bold;
+      display: inline-block;
+      width: 1em;
+      margin-left: -1em;
+  }
+
+.lista-soft ::before {
+    content: "\2022";
+    color: #9FB8AD;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+/* INDICATION */
+
+.secao-indicacao {
+   padding-bottom: 6em;
+   padding-top: 6em;
+   background-color: #334756;
+}
+
+.indication {
+    display: flex;
+    text-align: center;
+}
+
+.title-indication {
+    font-size: 2em;
+    text-align: center;
+    font-size: 2em;
+}
+
+.print {
+    border-radius: 0%;
+    padding: 1em;
+    width: 350px;
+    border-radius: 30px;
+}
+
+.indication-sites {
+    flex: 1;
+}

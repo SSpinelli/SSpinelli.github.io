@@ -4,7 +4,7 @@ body {
     background-color: #383E56;
     color: #C5D7BD;
     font-size: 20px;
-    font-family:'Poppins';
+    font-family: 'Poppins';
 }
 
 img {
@@ -20,7 +20,7 @@ a {
 
 ul {
     list-style: none;
-  }
+}
 
 /* MENU */
 
@@ -40,7 +40,7 @@ ul {
     text-align: left;
     font-family: 'Poppins';
 }
-  
+
 /* COVER */
 
 #capa {
@@ -120,13 +120,13 @@ ul {
 }
 
 .lista-hard ::before {
-      content: "\2022";
-      color: #FB743E;
-      font-weight: bold;
-      display: inline-block;
-      width: 1em;
-      margin-left: -1em;
-  }
+    content: "\2022";
+    color: #FB743E;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
 
 .lista-soft ::before {
     content: "\2022";
@@ -140,9 +140,9 @@ ul {
 /* INDICATION */
 
 .secao-indicacao {
-   padding-bottom: 6em;
-   padding-top: 6em;
-   background-color: #334756;
+    padding-bottom: 6em;
+    padding-top: 6em;
+    background-color: #334756;
 }
 
 .indication {

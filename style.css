@@ -1,177 +1,195 @@
 /* general */
 
 body {
-    background-color: #383E56;
-    color: #C5D7BD;
-    font-size: 20px;
-    font-family: 'Poppins';
+	background-color: #383e56;
+	color: #c5d7bd;
+	font-size: 20px;
+	font-family: "IBM Plex Mono";
+	text-shadow: 2px 2px 2px black;
 }
 
 img {
-    width: 300px;
-    border-radius: 50%;
-    padding: 100px 0 100px 0;
+	width: 300px;
+	border-radius: 50%;
+	padding: 100px 0 100px 0;
 }
 
 a {
-    color: #FB743E;
-    text-decoration: none;
+	color: #fb743e;
+	text-decoration: none;
 }
 
 ul {
-    list-style: none;
+	list-style: none;
 }
 
 /* MENU */
 
 .menu {
-    display: flex;
-    margin: 0 auto;
-    max-width: 20%;
+	display: flex;
+	margin: 0 auto;
+	max-width: 20%;
 }
 
 .lista-menu {
-    margin: 20px;
-    font-size: 1.5em;
-    color: #FB743E;
+	margin: 20px;
+	font-size: 1.5em;
+	color: #fb743e;
+}
+
+.lista-menu:hover {
+	color: #c5d7bd;
 }
 
 .nome-menu {
-    text-align: left;
-    font-family: 'Poppins';
+	text-align: left;
+	font-family: "Poppins";
 }
 
 /* COVER */
 
 #capa {
-    margin-top: 6em;
-    margin-bottom: 6em;
-    text-align: center;
-    font-size: 2.3em;
-    color: #C5D7BD;
+	margin-top: 6em;
+	margin-bottom: 6em;
+	text-align: center;
+	font-size: 2.3em;
+	color: #c5d7bd;
 }
 
 .meu-nome {
-    color: #FB743E;
+	color: #fb743e;
 }
 
 .logo {
-    width: 100px;
+	width: 100px;
+}
+
+.logo:hover {
+	transform: scale(120%);
 }
 
 /* ABOUT */
 
 #sobre {
-    background-color: #334756;
-    margin-top: 6em;
-    margin-bottom: 6em;
-    display: flex;
+	background-color: #334756;
+	margin-top: 6em;
+	margin-bottom: 6em;
+	display: flex;
 }
 
 .about-text {
-    text-align: center;
-    padding: 100px 200px 100px 200px;
-    max-width: 50%;
+	text-align: center;
+	padding: 100px 200px 100px 200px;
+	max-width: 50%;
 }
 
 .title-about {
-    font-size: 2em;
+	font-size: 2em;
 }
 
 .eu-foto {
-    margin-top: 85px;
+	margin-top: 85px;
 }
 
 /* SKILLS */
 
 #skills {
-    display: flex;
-    margin-top: 6em;
-    margin-bottom: 6em;
+	display: flex;
+	justify-content: space-around;
+	margin-top: 6em;
+	margin-bottom: 6em;
 }
 
 .soft {
-    max-width: 50%;
-    flex: 1;
-    margin-right: 245px;
+	justify-content: space-around;
+	max-width: 50%;
+	margin-right: 245px;
 }
 
 .hard {
-    max-width: 50%;
-    flex: 1;
-    margin-left: 245px;
+	max-width: 50%;
+	margin-left: 245px;
 }
 
 .giphy-embed {
-    margin-left: 200px;
-    border-radius: 45%;
+	border-radius: 45%;
 }
 
 #title-hard {
-    text-align: center;
-    font-size: 2em;
-    color: #FB743E;
+	text-align: center;
+	font-size: 2em;
+	color: #fb743e;
 }
 
 #soft2 {
-    text-align: center;
-    font-size: 2em;
-    color: #9FB8AD;
+	text-align: center;
+	font-size: 2em;
+	color: #9fb8ad;
 }
 
 .lista-hard ::before {
-    content: "\2022";
-    color: #FB743E;
-    font-weight: bold;
-    display: inline-block;
-    width: 1em;
-    margin-left: -1em;
+	content: "\2022";
+	color: #fb743e;
+	font-weight: bold;
+	display: inline-block;
+	width: 1em;
+	margin-left: -1em;
+	text-shadow: 2px 2px 2px black;
 }
 
 .lista-soft ::before {
-    content: "\2022";
-    color: #9FB8AD;
-    font-weight: bold;
-    display: inline-block;
-    width: 1em;
-    margin-left: -1em;
+	content: "\2022";
+	color: #9fb8ad;
+	font-weight: bold;
+	display: inline-block;
+	width: 1em;
+	margin-left: -1em;
+	text-shadow: 2px 2px 2px black;
 }
 
 /* INDICATION */
 
-.secao-indicacao {
-    padding-bottom: 6em;
-    padding-top: 6em;
-    background-color: #334756;
+#secao-indicacao {
+	display: block;
+	text-align: center;
+	padding-bottom: 6em;
+	padding-top: 6em;
+	background-color: #334756;
 }
 
 .indication {
-    display: flex;
-    text-align: center;
+	display: flex;
+	text-align: center;
 }
 
 .title-indication {
-    font-size: 2em;
-    text-align: center;
-    font-size: 2em;
+	font-size: 2em;
+	text-align: center;
+	font-size: 2em;
 }
 
 .print {
-    border-radius: 0%;
-    padding: 1em;
-    width: 350px;
-    border-radius: 30px;
+	border-radius: 0%;
+	padding: 1em;
+	margin-top: 1em;
+	width: 350px;
+	border-radius: 30px;
 }
 
-.indication-sites {
-    flex: 1;
+.print:hover {
+	transform: scale(120%);
 }
 
-.buton {
-    padding: 0 100px 0 100px;
-    background-color: #C5D7BD;
-    color: #383E56;
-    border-radius: 10px;
-    text-align: center;
-    margin: 50px 800px 0 800px;
+.button {
+	padding: 5px 20px 5px 20px;
+	width: 100px;
+	background-color: #c5d7bd;
+	color: #383e56;
+	border-radius: 7px;
+	text-shadow: none;
+	display: inline-block;
+}
+
+.button:hover {
+	background-color: #fb743e;
 }

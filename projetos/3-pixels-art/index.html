@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>The Joy of Painting</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<header>
+			<h1 id="title">Paleta de Cores</h1>
+		</header>
+		<main>
+			<section id="color-palette">
+				<div id="black" class="color selected"></div>
+			</section>
+			<section id="generator">
+				<input
+					type="number"
+					name="size"
+					id="board-size"
+					min="1"
+					max="50"
+					placeholder="tamanho do quadro"
+				/>
+				<button id="generate-board">VQV</button>
+			</section>
+			<section id="clear">
+				<button id="clear-board">Limpar</button>
+			</section>
+			<section id="pixel-board"></section>
+			<section id="bob">
+				<img
+					id="bob-photo"
+					src="bob-ross.png"
+					alt="foto do pintor bob ross sorrindo com um pincel na mão"
+				/>
+			</section>
+		</main>
+		<footer>
+			<ul>
+				<p>Tecnologias utilizadas</p>
+				<li>• HTML</li>
+				<li>• CSS</li>
+				<li>• JavaScript</li>
+			</ul>
+			<h3>
+				Projeto Pixel Art desenvolvido por João Gabriel Spinelli, enquanto aluno
+				da turma 16-A da trybe.
+			</h3>
+			<a href="https://github.com/SSpinelli" target="_blank"
+				><img src="/projetos/3-pixels-art/github.png" alt="logo do github"
+			/></a>
+			<a href="https://www.linkedin.com/in/jgsspinelli/" target="_blank"
+				><img src="/projetos/3-pixels-art/linkedin.png" alt="logo do linkedin"
+			/></a>
+		</footer>
+		<script src="script.js"></script>
+	</body>
+</html>

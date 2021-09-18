@@ -1,0 +1,161 @@
+body {
+	margin: 0;
+	background: linear-gradient(#fb743e80, #383e5680), url("wallPapers.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+section {
+	display: block;
+	text-align: center;
+}
+
+footer {
+	background-color: #383e56;
+	color: #fb743e;
+	padding: 71.5px;
+	font-family: monospace;
+	text-align: center;
+	font-size: 20px;
+	text-shadow: 3px 3px 1px black;
+}
+
+input {
+	padding: 5px 10px;
+	font-family: monospace;
+	font-size: 900;
+}
+
+button {
+	padding: 5px 10px;
+	font-family: monospace;
+	font-size: 900;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #383e56;
+	color: #fb743e;
+}
+
+footer h3 {
+	margin-bottom: 50px;
+	font-weight: 900;
+}
+
+footer ul {
+	list-style: none;
+	margin-bottom: 40px;
+}
+
+footer ul p {
+	font-size: 25px;
+	font-weight: 900;
+}
+
+footer img {
+	width: 65px;
+	border-radius: 50%;
+	margin-left: 10px;
+}
+
+footer img:hover {
+	transform: scale(120%);
+}
+
+#title {
+	margin-top: 30px;
+	text-align: center;
+	font-family: monospace;
+	font-size: 400%;
+	padding: 20px;
+	color: #fb743e;
+	text-shadow: 3px 3px 1px black;
+}
+
+#color-palette {
+	cursor: url("/projetos/3-pixels-art/brush1.png"), auto;
+	display: block;
+	text-align: center;
+	margin-top: -35px;
+	padding-top: 30px;
+}
+
+.color {
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	border: 1px solid black;
+	margin-left: 1%;
+}
+
+#pixel-board {
+	cursor: url("/projetos/3-pixels-art/brush1.png"), auto;
+	margin-top: 30px;
+	display: block;
+	text-align: center;
+}
+
+.pixel {
+	width: 40px;
+	height: 40px;
+	border: solid black 1px;
+	display: inline-block;
+	background-color: white;
+	margin-top: -5px;
+}
+
+#clear {
+	margin-top: -30px;
+	padding: 30px;
+}
+
+#black {
+	background-color: black;
+}
+
+#clear-board {
+	font-family: monospace;
+	font-weight: 900;
+	font-size: 20px;
+}
+
+#generator {
+	margin-top: -1px;
+	padding: 30px;
+}
+
+#board-size {
+	font-size: 20px;
+	width: 250px;
+}
+
+#generate-board {
+	font-size: 20px;
+}
+
+#bob {
+	display: block;
+	text-align: right;
+	margin-top: -9%;
+}
+
+#bob img {
+	display: inline-block;
+	position: sticky;
+	margin-bottom: -5px;
+	cursor: pointer;
+}
+
+#easterEgg {
+	color: #fb743e;
+	text-shadow: 3px 5px 1px black;
+	font-family: monospace;
+	font-size: 50px;
+	text-align: center;
+	padding: 10px;
+	position: absolute;
+	margin-top: -8%;
+	margin-left: 3%;
+}

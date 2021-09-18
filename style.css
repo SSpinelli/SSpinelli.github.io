@@ -50,7 +50,7 @@ ul {
 
 #capa {
 	margin-top: 6em;
-	margin-bottom: 6em;
+	margin-bottom: 2em;
 	text-align: center;
 	font-size: 2.3em;
 	color: #c5d7bd;
@@ -66,6 +66,26 @@ ul {
 
 .logo:hover {
 	transform: scale(120%);
+}
+
+/* PROJETOS */
+h2 {
+	text-align: center;
+	font-size: 40px;
+}
+
+#projetos {
+	display: flex;
+	justify-content: center;
+}
+
+#projetos h3 {
+	margin-left: 40px;
+	font-size: 1.5em;
+}
+
+#projetos h3:hover {
+	color: #c5d7bd;
 }
 
 /* ABOUT */

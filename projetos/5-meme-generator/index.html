@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="/projetos/5-meme-generator/style.css" />
+		<title>Document</title>
+	</head>
+	<body>
+		<main>
+			<header>
+				<img
+					src="/projetos/5-meme-generator/[Untitled].png"
+					alt=""
+					id="dolly-logo"
+				/>
+			</header>
+			<section class="input-area">
+				<input
+					type="text"
+					name="text-input"
+					id="text-input"
+					minlength="0"
+					maxlength="60"
+				/>
+				<input type="file" id="meme-insert" onchange="previewImage()" />
+			</section>
+			<section>
+				<div id="meme-image-container">
+					<img src="" alt="" id="meme-image" />
+					<p id="meme-text"></p>
+				</div>
+			</section>
+			<section id="border-buttons">
+				<h3>Estilos de bordas com os nossos sabores</h3>
+				<button id="fire">Laranja</button>
+				<button id="earth">Tradicional</button>
+				<button id="water">Chiclete</button>
+			</section>
+			<section id="photo-galery">
+				<h3>Crie meme com o dollynho</h3>
+				<img
+					src="/projetos/5-meme-generator/imgs/meme1.png"
+					alt=""
+					id="meme-1"
+				/>
+				<img
+					src="/projetos/5-meme-generator/imgs/meme2.png"
+					alt=""
+					id="meme-2"
+				/>
+				<img
+					src="/projetos/5-meme-generator/imgs/meme3.png"
+					alt=""
+					id="meme-3"
+				/>
+				<img
+					src="/projetos/5-meme-generator/imgs/meme4.png"
+					alt=""
+					id="meme-4"
+				/>
+			</section>
+		</main>
+		<footer>
+			<ul>
+				<p>Tecnologias utilizadas</p>
+				<li>• HTML</li>
+				<li>• CSS</li>
+				<li>• JavaScript</li>
+			</ul>
+			<h3>
+				Projeto Meme Generator desenvolvido por João Gabriel Spinelli, enquanto
+				aluno da turma 16-A da trybe.
+			</h3>
+			<a href="https://github.com/SSpinelli" target="_blank"
+				><img src="/projetos/5-meme-generator/github.png" alt="logo do github"
+			/></a>
+			<a href="https://www.linkedin.com/in/jgsspinelli/" target="_blank"
+				><img
+					src="/projetos/5-meme-generator/linkedin.png"
+					alt="logo do linkedin"
+			/></a>
+		</footer>
+		<script src="/projetos/5-meme-generator/script.js"></script>
+	</body>
+</html>

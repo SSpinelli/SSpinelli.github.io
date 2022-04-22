@@ -1,0 +1,55 @@
+.section-certificates {
+  background-color: #043c2c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 150px;
+}
+
+.section-certificates h1 {
+  color: #c4b06b;
+  text-shadow: 3px 1px 2px #6d5e2b;
+  font-size: 50px;
+  font-family: 'IBM Plex Mono', monospace;
+  font-style: italic;
+  margin-bottom: 50px;
+}
+
+.section-certificates ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-certificates ul li {
+  margin-bottom: 20px;
+}
+
+.section-certificates ul li a {
+  color: #73a695;
+  font-size: 20px;
+  font-weight: bold;
+  list-style: none;
+  text-decoration: none;
+}
+
+.section-certificates ul li a:hover {
+  color: #d9cca0;
+}
+
+@media (max-width: 425px) {
+  .section-certificates {
+    padding: 30px;
+  }
+
+  .section-certificates h1 {
+    font-size: 35px;
+    margin-bottom: 30px;
+  }
+
+  .section-certificates ul {
+    padding: 0;
+  }
+}

@@ -1,0 +1,11 @@
+/* #c4b06b
+#d9cca0
+#043c2c
+#73a695
+#6d5e2b */
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

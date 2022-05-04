@@ -20,6 +20,13 @@ img {
   display: block;
 }
 
+header {
+  background-color: #ffffff;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
 .subtitle {
   font-size: 8rem;
   word-break: break-all;

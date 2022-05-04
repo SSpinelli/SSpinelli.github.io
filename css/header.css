@@ -32,6 +32,11 @@
   display: block;
 }
 
+.header-menu a:hover {
+  color: #6AB708;
+  font-weight: bold;
+}
+
 @media (max-width: 800px) {
   .header {
     flex-direction: column;

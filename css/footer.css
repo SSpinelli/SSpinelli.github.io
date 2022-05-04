@@ -18,6 +18,12 @@
   color: #cccccc;
 }
 
+.footer-contact {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
 .footer-contact li {
   font-weight: bold;
   font-size: 2.25rem;
@@ -41,6 +47,9 @@
 }
 
 @media (max-width: 800px) {
+  .footer-text {
+    font-size: 1.25rem;
+  }
   .footer-container {
     grid-template-columns: 1fr;
     gap: 40px;

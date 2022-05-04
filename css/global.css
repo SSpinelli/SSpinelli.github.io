@@ -41,4 +41,12 @@ header {
     text-transform: capitalize;
     max-width: initial !important;
   }
+  header {
+    background-color: #ffffff;
+    position: initial;
+  }
+  .footer-contact li a img {
+    width: 32px;
+    height: 32px;
+  }
 }

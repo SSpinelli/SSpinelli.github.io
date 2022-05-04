@@ -86,9 +86,11 @@
   .experience {
     grid-template-columns: 1fr;
     gap: 40px;
+    padding: 20px;
   }
   .experience .subtitle {
     color: #141414;
+    font-size: 1.8rem;
   }
   .experience-text {
     font-size: 1.25rem;

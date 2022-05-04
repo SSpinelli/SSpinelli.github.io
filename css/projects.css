@@ -101,9 +101,11 @@
   .projects-container {
     grid-template-columns: 1fr;
     gap: 40px;
+    padding: 40px 20px;
   }
   .projects .subtitle {
     color: #141414;
+    font-size: 1.8rem;
   }
   .projects-text {
     font-size: 1.25rem;

@@ -19,7 +19,7 @@
 }
 
 .footer-contact {
-  display: flex;
+  display: flex !important;
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
@@ -30,10 +30,6 @@
   line-height: 1.1;
   color: #ffffff;
   margin-bottom: 30px;
-}
-
-.footer-contact li a {
-  color: #ffffff;
 }
 
 .footer-copy {
@@ -56,8 +52,5 @@
   }
   .footer-contact {
     justify-content: space-around;
-  }
-  .footer-contact li {
-    font-size: 1.5rem;
   }
 }

@@ -14,11 +14,11 @@
 }
 
 .formation-container::after {
-  content: '';
+  content: "";
   display: block;
   width: 130px;
   height: 100px;
-  background: url('../icons/detalhe.svg') no-repeat center;
+  background: url("../icons/detalhe.svg") no-repeat center;
   position: absolute;
   bottom: -50px;
   left: 20px;
@@ -58,7 +58,7 @@
 }
 
 .course-type {
-  font-size: .875rem;
+  font-size: 0.875rem;
   text-transform: uppercase;
   color: #a3a3a3;
   margin-bottom: 10px;
@@ -73,7 +73,7 @@
 }
 
 .course::before {
-  content: '';
+  content: "";
   display: block;
   width: 4px;
   height: 20px;
@@ -102,7 +102,7 @@
 
 .extra-formation h3::before {
   display: block;
-  content: '';
+  content: "";
   width: 24px;
   height: 24px;
   position: absolute;
@@ -111,17 +111,26 @@
 }
 
 .other-course h3::before {
-  background: url('../icons/menu_book_black_24dp.svg') no-repeat center center;
+  background: url("../icons/menu_book_black_24dp.svg") no-repeat center center;
 }
 
 .languages h3::before {
-  background: url('../icons/translate_black_24dp.svg') no-repeat center center;
+  background: url("../icons/translate_black_24dp.svg") no-repeat center center;
 }
 
 .other-course li {
   font-size: 1.125rem;
   line-height: 1.1;
   margin-bottom: 20px;
+}
+
+.other-course li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.other-course li a:hover {
+  color: #b6f829;
 }
 
 .languages li {
